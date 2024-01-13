@@ -62,7 +62,11 @@ a:hover {
 }
 
 .logo:hover {
-  cursor: default;
+  cursor: pointer;
+  color: grey;
+  text-decoration: underline;
+  text-decoration-color: rgb(181, 181, 181);
+  transition: all 300ms ease;
 }
 
 /* HAMBURGER MENU */
